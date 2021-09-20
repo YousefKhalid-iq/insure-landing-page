@@ -60,7 +60,7 @@ main {
   background-image: url(images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100%;
+  background-size: 100% 40%;
   visibility: hidden;
 }
 
@@ -79,6 +79,7 @@ main {
   text-transform: uppercase;
   font-size: 1.3rem;
   width: 90%;
+  font-weight: 700;
 }
 
 .plans-link {
@@ -94,7 +95,6 @@ main {
 
 .press2 {
   visibility: hidden;
-  
 }
 
 .press3 {
@@ -106,14 +106,232 @@ main {
   object-fit: cover;
 }
 
-h1 {
+.humanizing-cont {
+  width: 100%;
+  background-color: hsl(256, 26%, 20%);
+  margin-top: -2%;
+  background-image: url("images/bg-pattern-intro-left-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 45%;
+  padding-bottom: 20%;
+}
 
+h1 {
+  font-family: 'DM Serif Display', serif;
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20%;
+  padding-bottom: 3%;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.header-para {
+  font-family: 'Karla', sans-serif;
+  color: hsl(0, 0%, 85%);
+  font-weight: 400;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  opacity: 0.9;
+  padding-bottom: 5%;
+}
+
+.header-btn-cont {
+  text-align: center;
+  margin: 3% 0 0 0;
+}
+
+.header-btn-cont button {
+  padding: 2% 8%;
+  background: transparent;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 98%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.h2-bg-cont {
+  background-image: url("images/bg-pattern-intro-right-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 30%;
+  width: 100%;
+  margin-top: -37%;
+  padding: 40% 0 5% 0;
+}
+
+.border-different {
+  border-bottom: 0.1rem solid hsl(270, 60%, 86%);
+  width: 40%;
+  margin: 30% auto -15% auto;
+}
+
+.different-h2 {
+  width: 80%;
+  text-align: center;
+  padding-top: 22%;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.different-images {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.snappy-h2, .affordable-h2, .people-h2 {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  padding: 6% 0 4% 0;
+  font-size: 1.5rem;
+} 
+
+.snappy-p, .affordable-p, .people-p {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color: hsl(273, 4%, 51%);
+  opacity: 0.9;
+  padding-bottom: 5%;
+  line-height: 1.4rem;
+  width: 89%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.people-first {
+  margin-bottom: 25%;
+}
+
+.findout-section {
+  width: 85%;
+  margin: 0 auto;
+  background-color: hsl(256, 26%, 20%);
+  background-image: url("images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50%;
+  margin-bottom: 30%;
+}
+
+.findout-h2 {
+  color: hsl(0, 0%, 98%);
+  font-family: 'DM Serif Display', serif;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-top: 20%;
+}
+
+.findout-btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.findout-btn button {
+  font-family: 'Karla', sans-serif;
+  padding: 3% 6%;
+  background: transparent;
+  border-width: 0.1rem;
+  border-color: hsl(0, 0%, 98%);
+  border-style: solid;
+  margin: 8% 0 20% 0;
+  color: hsl(0, 0%, 98%);
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.9;
+  word-spacing: 0.3rem;
+}
+
+.footer-section {
+  background-color: hsl(0, 0%, 97%);
+}
+
+.footer-pattern-cont {
+  background-image: url('images/bg-pattern-footer-mobile.svg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  padding-top: 20%;
+}
+
+.logo-footer {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  text-align: center;
+  padding: 8% 0 12% 0;
+}
+
+.footer-socials li {
+  display: inline;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  padding: 0 1.5%;
+}
+
+.border-footer {
+  border-bottom: 0.1rem solid hsl(0, 0%, 88%);
+  width: 90%;
+  margin: 5% auto 5% auto;
+}
+
+.footer-paras {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 5% 0;
+}
+
+.company-links, .help-links, .contact-links, .others-links {
+  text-align: center;
+}
+
+.company-links li, .help-links li, .contact-links li, .others-links li {
+  padding: 2% 0;
+}
+
+.company-links a, .help-links a, .contact-links a, .others-links a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem; 
 }
 
 .attribution { 
   font-size: 11px; text-align: center; 
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-family: 'Karla', sans-serif;
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(273, 4%, 51%);
+  text-decoration: none;
 }
