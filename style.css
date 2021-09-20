@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-width: 100%;
+}
+
+.header-flex {
+  width: 100%;
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.logo-img {
+  margin: 8% 5%;
+}
+
+.toggle-on-cont {
+  position: absolute;
+  right: 5%;
+  margin: 6% 0;
+}
+
+.toggle-on {
+  background: transparent;
+  border-width: 0;
+}
+
+.open-btn {
+  cursor: pointer;
+}
+
+.toggle-off-cont {
+  position: absolute;
+  right: 5%;
+  visibility: hidden;
+  margin: 6% 0;
+}
+
+.toggle-off {
+  background: transparent;
+  border-width: 0;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.menu-container {
+  width: 100%;
+  text-align: center; 
+  background: hsl(270, 9%, 17%);
+  position: absolute;
+  padding: 10% 0 56% 0;
+  top: 0;
+  margin-top: 19%;
+  background-image: url(images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  visibility: hidden;
+}
+
+.menu-container ul {
+  
+}
+
+.menu-container li {
+  padding: 4% 0;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: hsl(0, 0%, 98%);
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.plans-link {
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: hsl(0, 0%, 98%);
+  padding: 2% 20%;
+}
+
+.press {
+  visibility: visible;
+}
+
+.press2 {
+  visibility: hidden;
+  
+}
+
+.press3 {
+  visibility: visible;
+}
+
+.intro-img-mobile {
+  width: 100%;
+  object-fit: cover;
+}
+
+h1 {
+
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
