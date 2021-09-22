@@ -499,7 +499,7 @@ h1 {
   .intro-img-desktop {
     display: block;
     width: 100%;
-    margin: 15% 0 -15% 0;
+    margin: 15% 0 -15% -3%;
   }
 
   .humanizing-cont {
